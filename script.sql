@@ -109,7 +109,7 @@ CREATE TABLE salary_items (
     vn_item_id INT AUTO_INCREMENT PRIMARY KEY,
     vc_item_name VARCHAR(100) NOT NULL,
     vc_item_type ENUM('EARNING','DEDUCTION','PROVISION') NOT NULL,
-    vc_calc_type ENUM('FIXED','PERCENTAGE','FORMULA') NOT NULL,
+    vc_calc_type ENUM('FIXED','PERCENTAGE','FORMULA','VARIABLE','ANNUAL') NOT NULL,
     vn_social_security BOOL DEFAULT FALSE,
     vn_parafiscal BOOL DEFAULT FALSE,
     vc_description TEXT,
