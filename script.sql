@@ -319,7 +319,7 @@ INSERT INTO salary_items (
 (1, 'Salario base', 'EARNING', 'FIXED', TRUE, TRUE, 'Pago mensual fijo'),
 (2, 'Descuento Salud', 'DEDUCTION', 'PERCENTAGE', TRUE, FALSE, 'Aporte salud empleado'),
 (3, 'Auxilio de transporte', 'EARNING', 'FIXED', TRUE, FALSE, 'Ayuda para movilización'),
-(4, 'Horas extras', 'EARNING', 'PER_HOUR', TRUE, FALSE, 'Pago por horas adicionales'),
+(4, 'Horas extras', 'EARNING', 'FIXED', TRUE, FALSE, 'Pago por horas adicionales'),
 (5, 'Bonificación especial', 'EARNING', 'VARIABLE', FALSE, FALSE, 'Incentivo no obligatorio'),
 (6, 'Prima legal', 'EARNING', 'ANNUAL', TRUE, FALSE, 'Prestación social anual'),
 (7, 'Vacaciones', 'EARNING', 'ANNUAL', TRUE, FALSE, 'Descanso remunerado'),
