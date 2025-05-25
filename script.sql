@@ -153,6 +153,8 @@ CREATE TABLE payroll_movements (
 
 -- 1. org_areas
 INSERT INTO org_areas (vn_area_id, vc_area_name, vc_area_desc) VALUES
+(1, 'Gestión Humana', 'Área encargada del talento humano'),
+(2, 'Tesorería', 'Manejo financiero y presupuestal'),
 (3, 'Administración', 'Gestión general del funcionamiento interno'),
 (4, 'Sistemas', 'Responsable del soporte tecnológico'),
 (5, 'Compras', 'Adquisición de bienes y servicios'),
@@ -170,6 +172,8 @@ INSERT INTO org_areas (vn_area_id, vc_area_name, vc_area_desc) VALUES
 
 -- 2. job_roles
 INSERT INTO job_roles (vn_role_id, vc_role_name, vn_area_id, vn_base_salary, vc_description) VALUES
+(1, 'Especialista de Nómina', 1, 3000000.00, 'Responsable de liquidación de nómina'),
+(2, 'Contador General', 2, 3500000.00, 'Manejo contable y estados financieros'),
 (3, 'Jefe de Administración', 3, 4000000.00, 'Supervisión de operaciones internas'),
 (4, 'Analista de Sistemas', 4, 4200000.00, 'Soporte técnico y desarrollo'),
 (5, 'Asistente de Compras', 5, 2800000.00, 'Apoyo en adquisiciones'),
@@ -183,6 +187,7 @@ INSERT INTO job_roles (vn_role_id, vc_role_name, vn_area_id, vn_base_salary, vc_
 (13, 'Auditor Interno', 13, 4300000.00, 'Revisión de cumplimientos internos'),
 (14, 'Abogado Corporativo', 14, 4800000.00, 'Asesoría legal empresarial'),
 (15, 'Ingeniero de Seguridad', 15, 4100000.00, 'Prevención de accidentes laborales');
+
 
 
 -- 3. contract_modes
